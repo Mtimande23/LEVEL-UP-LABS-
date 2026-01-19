@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleforRegistering.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level-Up Labs.Inc Create Account</title>
+</head>
+<body>
+    <h1>Create your Account and experience Level-Up Labs in its full capacity
+        <hr>
+    </h1>
+    <p><small><strong><u>Disclaimer for a Gaming Tips Website</u></strong>
+        <br>
+        The information provided on this website is for general informational and entertainment purposes only.
+        <br>While we strive to ensure that all gaming tips, strategies, and advice are accurate and up-to-date, 
+        we make no guarantees about the completeness, reliability, or effectiveness of the information presented.
+        <br><br>
+        
+        <strong class="highlight"><u>Please Note:</u></strong>
+        <br>
+        <ol class="highlight">
+            <li>Personal Skill Levels: The success of tips and strategies may vary depending on individual skill levels, gaming platforms, and updates made by game developers.</li>
+
+            <li>Game Updates: Games are frequently updated, and certain tips or strategies may become outdated over time. Always refer to the latest patch notes or updates from the game’s official developers.</li>
+
+            <li>Third-Party Content: Any links to third-party websites or resources are provided for convenience and do not constitute endorsement. We are not responsible for the content or accuracy of third-party information.</li>
+
+            <li>Ownership of Information: We acknowledge that not all content, tips, or strategies shared on this website are our original property. Some information may be derived from publicly available sources, player communities, or official game resources. All copyrights, trademarks, and intellectual property belong to their respective owners.</li>
+
+            <li>No Guarantees: Achievements, rankings, or in-game rewards may not be guaranteed through the application of the tips shared on this website.</li>
+
+            <li>Use at Your Own Risk: All gaming activities, including in-app purchases or interactions with other players, are undertaken at your own risk. We are not liable for any loss or damages resulting from your use of this site or its contents.</li>
+        </ol>
+        <br>
+        </small>
+    </p>
+
+    <form id="registerForm" action="index.html" onsubmit="submit(event)" >
+        <h3><strong><u>Fill out the following form</u></strong></h3>
+        <br><br>
+        <label for="Name">Enter your Name:</label>
+        <input type="text" id="Name" placeholder="Douglas Jackson" required>
+
+        <label for="Email">Enter Email:</label>
+        <input type="email" id="email" placeholder="Level-Uplabs@icloud.com"required>
+        <br><br>
+        
+            <label for="Username">Enter username:</label>
+            <input type="text" id="Username" name="Username" pattern="[A-Za-z0-9!@#$%^&*()_+\-=*" placeholder="newbie2000"required>
+
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password" name="password" pattern="[A-Za-z0-9!@#$%^&*()_+\-=*" placeholder="@rookie1_"required>
+
+            <br><br>
+            <strong><u>By using this website, you acknowledge and agree that:</u></strong>
+            <br>
+
+            <p>The use of the information provided on this website is at your own discretion and risk. 
+                This website is not affiliated with or endorsed by any specific game developer or publisher unless explicitly stated. 
+                All intellectual property related to the games mentioned belongs to their respective creators. 
+                Level-Up Labs will not be held liable for any errors or faults that may occur.</p>
+            <br>
+
+            <input type="checkbox" name="I agree" id="consentCheckBox" required>
+            <label for="consentCheckBox">I agree</label>
+            
+             <br><br>
+            <button type="submit"><strong>submit</strong></button>
+    </form>
+    <script src="Registering.js"></script>
+</body>
+</html>

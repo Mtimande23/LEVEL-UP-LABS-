@@ -1,0 +1,26 @@
+h1{
+    background-color: seagreen;
+    text-align: center;
+}
+
+body{
+    background-color: cornflowerblue;
+    
+}
+
+.highlight{
+    color: rgb(218, 78, 78);
+}
+
+form{
+    background-image:url('./images/level.png');
+    background-position: center;
+    background-color: seagreen;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+     margin: 80px; 
+     padding:150px; 
+}

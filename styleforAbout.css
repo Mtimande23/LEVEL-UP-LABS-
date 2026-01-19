@@ -1,0 +1,21 @@
+h1{
+    color: black;
+    background-color: seagreen;
+    text-decoration: wavy;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+ 
+h4{
+    text-align: center;
+}
+
+li{
+    list-style-type: decimal-leading-zero;
+}
+body{
+background-color: cornflowerblue;
+
+    
+
+}
